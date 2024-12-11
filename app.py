@@ -17,8 +17,9 @@ passaword.click()
 passaword.send_keys('12345678')
 
 button_login = drive.find_element(
-    By.XPATH, "//class[@id='btn btn-primary btn-lg']")
-button_login.click()
+    By.XPATH, "//button[@class='btn btn-primary btn-lg']")
 sleep(1)
+button_login.click()
+
 
 input('aperte para entra')
